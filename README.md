@@ -2,7 +2,7 @@
 
 A modern, responsive redesign of the "Choose Your Skip Size" page for We Want Waste, built with React and TypeScript.
 
-## 🚀 Features
+## Features
 
 - **Real-time Data**: Fetches skip information from We Want Waste API
 - **Responsive Design**: Optimized for mobile, tablet, and desktop
@@ -12,14 +12,14 @@ A modern, responsive redesign of the "Choose Your Skip Size" page for We Want Wa
 - **Loading States**: Skeleton screens for better UX
 - **Accessibility**: Semantic HTML and keyboard navigation support
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **React 18** with TypeScript
 - **Tailwind CSS** for styling
 - **Lucide React** for icons
 - **Vite** for development and building
 
-## 📱 Design Highlights
+## Design Highlights
 
 - **Card-based Layout**: Each skip size displayed in an interactive card
 - **Visual Selection**: Selected skips are highlighted with animations
@@ -28,7 +28,7 @@ A modern, responsive redesign of the "Choose Your Skip Size" page for We Want Wa
 - **Loading Skeletons**: Smooth loading experience
 - **Hover Effects**: Enhanced interactivity with micro-animations
 
-## 🏃‍♂️ Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js 16+ and npm
@@ -52,7 +52,7 @@ npm run build
 npm run preview
 ```
 
-## 🌐 API Integration
+## API Integration
 
 The app fetches skip data from:
 ```
@@ -77,7 +77,7 @@ src/
 └── App.tsx                  # Root component
 ```
 
-## 🎨 Design Decisions
+## Design Decisions
 
 1. **Color Palette**: Professional blue and green theme
 2. **Typography**: Clear hierarchy with readable font sizes
@@ -85,7 +85,7 @@ src/
 4. **Animation**: Subtle transitions for better UX
 5. **Accessibility**: High contrast ratios and semantic markup
 
-## 🔧 Key Components
+## Key Components
 
 ### SkipCard
 Interactive cards showing skip details with selection state management.
@@ -96,14 +96,14 @@ Sticky bottom bar that appears when a skip is selected, showing price and contin
 ### LoadingSkeleton
 Animated loading placeholders that match the final card layout.
 
-## 📊 Performance Features
+## Performance Features
 
 - **Lazy Loading**: Efficient rendering of skip cards
 - **Error Boundaries**: Graceful error handling
 - **Responsive Images**: Optimized for different screen sizes
 - **Minimal Bundle**: Clean code with no unnecessary dependencies
 
-## 🚀 Deployment Ready
+## Deployment Ready
 
 This project is production-ready with:
 - TypeScript for type safety
@@ -115,5 +115,3 @@ This project is production-ready with:
 ---
 
 **Challenge completed for We Want Waste frontend redesign**
-
-Built with ❤️ using React, TypeScript, and Tailwind CSS
